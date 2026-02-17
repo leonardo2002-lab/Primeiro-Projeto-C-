@@ -22,7 +22,7 @@ int main() {
 
     media = (n1+n2)/2;
 
-    cout << "A media das notas e:" << media << endl;
+    cout << "a media das notas e:" << media << endl;
 
     if(media >= 7){
         cout << "Aluno esta aprovado!!" << endl;
