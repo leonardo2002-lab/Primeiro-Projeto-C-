@@ -12,6 +12,7 @@ int main() {
     system("cls");
 
 
+    //adicionando na nova branch
     cout << "Digite a primeira nota:";
     cin >> n1;
 
