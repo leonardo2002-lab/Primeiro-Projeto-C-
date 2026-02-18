@@ -13,6 +13,7 @@ int main() {
 
 
     //adicionando na nova branch
+    //adicionando um novo commit
     cout << "Digite a primeira nota:";
     cin >> n1;
 
