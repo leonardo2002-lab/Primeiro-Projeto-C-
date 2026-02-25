@@ -13,13 +13,15 @@ int main(){
     int val1,val2;
     
 
-    cout << "------Bem vindo a calculadora------" << endl;
-    cout << "-----------------------------------" << endl;
+    cout << "-----------------------------------------------------------------" << endl;
+    cout << "                    |Bem vindo a calculadora|" <<endl;
+    cout << "-----------------------------------------------------------------" << endl;
 
-    cout << "    Qual operacao quer realizar?" <<endl;
+    cout << "                  Qual operacao quer realizar?" <<endl;
+    cout << "-----------------------------------------------------------------" << endl;
     cout << "[1] = Soma, [2] = Subtracao, [3] = multiplicacao, [4] = divisao:";
     cin >> opc;
-    cout << "-----------------------------------" << endl;
+    cout << "-----------------------------------------------------------------" << endl;
 
     switch(opc){
         case 1:
@@ -57,13 +59,14 @@ int main(){
 
     char continuar; 
 
-    cout << "\n--------------------------------------------------" <<endl;
+    cout << "\n-----------------------------------------------------------------" << endl;
     cout << "Voce quer continuar a usar calculadora? [S] ou [N]:";
     cin >> continuar;
 
     if(continuar == 'S' || continuar == 's'){
         goto inicio;
     }else{
+        cout << " ----------------------------------------------------------------" << endl;
         cout << "Programa Finalizado!!";
     }
 
